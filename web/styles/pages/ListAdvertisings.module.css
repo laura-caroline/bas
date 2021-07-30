@@ -1,0 +1,34 @@
+
+
+.box_title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.box_advertisings{
+  width: 100%;
+  min-height: 500px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box_advertising{
+  min-width: 20%;
+  padding: 20px;
+  margin: 40px 20px 40px 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+}
+
+.image_advertising{
+  max-width: 300px;
+  max-height: 150px;
+}
+
+.info_error{
+  color: red;
+}

@@ -1,0 +1,102 @@
+
+  .box_shop{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #3F51B5;
+    align-items: center; 
+    padding: 40px;
+  }
+
+  .box_content{
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+
+  .form{
+    width: 100%
+  }
+
+  .button_search{
+    cursor: pointer;
+  }
+
+  .box_list_advertisings{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    margin-top: 5px;
+  }
+
+  .box_advertising{
+    width: 100%;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid #ddd
+  }
+
+  .item_advertising{
+    width: 100%;
+    padding: 20px;
+    display: block;
+  }
+
+  .box_search{
+    width:100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+  }
+
+  .search{
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .box_categorys{
+    width: 80%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box_category{
+    cursor: pointer;
+    min-width: 8%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media(max-width: 1000px){
+    .box_category{
+      width: 30%;
+    }
+  }
+
+  .icon_category{
+    width: 58px;
+    font-size: 14px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 100%;
+  }
+
+  .title_category{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }

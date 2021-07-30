@@ -1,0 +1,23 @@
+
+  .box_advertising{
+    min-width: 30%;
+    padding: 20px;
+    margin: 40px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+  }
+  
+  .image_advertising{
+    max-width: 100%;
+    max-height: 300px;
+  }
+
+
+  .box_button{
+    width: 30%;
+    padding:13px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: gray;
+  }
